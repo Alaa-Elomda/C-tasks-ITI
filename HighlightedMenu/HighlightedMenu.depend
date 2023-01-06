@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667187245 source:d:\intro to programming\lab\fourthlab\highlightedmenu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

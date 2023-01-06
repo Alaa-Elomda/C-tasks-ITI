@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1667253351 source:d:\intro to programming\lab\fourthlab\highlightedmenuwithtenemployees\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1667253351 source:d:\intro to programming with c\lab\fourthlab\highlightedmenuwithtenemployees\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

@@ -1,0 +1,103 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int y,m,d;
+    int cYear = 2022;
+    int cMonth = 10;
+    int cDay = 26;
+
+    do{
+        printf("Plz enter year \n");
+        _flushall();
+        scanf("%i",&y);
+    } while (y < 1980 || y > 2022);
+
+    int x;
+    do{
+        printf("Plz enter month \n");
+        _flushall();
+        scanf("%i",&m);
+    }while(m<1 || m>x);
+
+    do{
+        printf("Plz enter day \n");
+        _flushall();
+        scanf("%i",&d);
+      switch(m){
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        x=31;
+        break;
+    case 4:
+    case 6:
+    case 11:
+    case 9:
+        x=30;
+        break;
+    case 2:
+        if(y%4==0){
+            x=29;
+        }else{
+            x=28;
+        }
+        break;
+     }
+    }while(d<1 || d> x);
+
+
+    if(d>cDay){
+        cMonth --;
+        switch(cMonth)
+        {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            cDay += 31;
+
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            cDay += 30;
+
+        case 2:
+            if(y%4==0){
+                cDay+=29;
+            }else{
+                cDay+=28;
+            }
+        break;
+        }
+    }
+         if(m>cMonth){
+            cYear --;
+            cMonth += 12;
+
+    }
+
+
+    int year = cYear - y;
+    int month = cMonth - m;
+    int day = cDay - d;
+
+    printf("you're %i year, %i month and %i day \n",year,month,day);
+
+
+
+
+
+
+    return 0;
+
+}

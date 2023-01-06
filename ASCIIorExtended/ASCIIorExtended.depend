@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667185076 source:d:\intro to programming\lab\fourthlab\asciiorextended\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

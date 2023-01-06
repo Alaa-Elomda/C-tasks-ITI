@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1666960961 source:d:\intro to programming\lab\thirdlab\newsolution\multiplytwodarray\main.c
+	<stdio.h>
+	<stdlib.h>
+

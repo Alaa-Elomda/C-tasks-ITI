@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667251838 source:d:\intro to programming\lab\fourthlab\reversedname\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

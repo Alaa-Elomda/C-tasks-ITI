@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1667066496 source:d:\intro to programming\lab\thirdlab\newsolution\bounsmultiplytwodarray\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1666953930 source:d:\intro to programming\lab\thirdlab\newsolution\minandmaxofarray\main.c
+	<stdio.h>
+	<stdlib.h>
+

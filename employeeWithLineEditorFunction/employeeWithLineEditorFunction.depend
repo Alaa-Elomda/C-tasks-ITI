@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1667444220 source:d:\intro to programming with c\lab\sixthlab\employeewithlineeditorfunction\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+
